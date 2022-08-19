@@ -1,6 +1,6 @@
 **Introduction**
 
-This is a "remote controlled" car (not wireless) based on the [MSP430 platform](https://www.ti.com/microcontrollers-mcus-processors/microcontrollers/msp430-microcontrollers/overview.html). An MSP430-2355[enter link description here](https://www.ti.com/product/MSP430FR2355) acts as a master device, and sends signals to an [MSP430-2310](https://www.ti.com/product/MSP430FR2310) over the integrated [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) modules. The slave MSP430 then sends signals to an [L293D Quadruple Half-H Driver](https://www.ti.com/product/L293D) chip, which controls the 2 DC motors. The slave device also sends control signals to a servo, which steers the front two wheels of the car.
+This is a "remote controlled" car (not wireless) based on the [MSP430 platform](https://www.ti.com/microcontrollers-mcus-processors/microcontrollers/msp430-microcontrollers/overview.html). An [MSP430-2355](https://www.ti.com/product/MSP430FR2355) acts as a master device, and sends signals to an [MSP430-2310](https://www.ti.com/product/MSP430FR2310) over the integrated [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) modules. The slave MSP430 then sends signals to an [L293D Quadruple Half-H Driver](https://www.ti.com/product/L293D) chip, which controls the 2 DC motors. The slave device also sends control signals to a servo, which steers the front two wheels of the car.
 
 A circuit diagram, consisting of the basic inputs, outputs, and hardware connections, is included in the repository.
 
